@@ -21,7 +21,6 @@ public class FuelDepot {
     }
 
     /* Methods */
-
     /**
      * @param threshold The threshold number.
      * @return The index of the lowest leveled fuel tank under the threshold. If there are none, it will return the

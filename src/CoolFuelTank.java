@@ -8,7 +8,6 @@ public class CoolFuelTank implements FuelTank {
     }
 
     /* Methods */
-
     /**
      * @return the fuelLevel given to the tank.
      */

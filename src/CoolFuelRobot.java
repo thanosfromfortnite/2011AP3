@@ -1,5 +1,4 @@
 public class CoolFuelRobot implements FuelRobot {
-
     /* Fields */
     private boolean facingRight;
     private int index;
@@ -43,5 +42,4 @@ public class CoolFuelRobot implements FuelRobot {
             index -= numLocs;
         }
     }
-
 }
