@@ -1,9 +1,13 @@
 import java.util.List;
 
 public class FuelDepot {
-    private FuelRobot filler;
 
+    private FuelRobot filler;
     private List<FuelTank> tanks;
+
+    public FuelDepot() {
+
+    }
 
     public int nextTankToFill(int threshold) {
         int index = filler.getCurrentIndex(), lowest = threshold;
